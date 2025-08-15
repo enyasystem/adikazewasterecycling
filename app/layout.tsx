@@ -27,23 +27,37 @@ export const metadata: Metadata = {
     "NTCRS compliance",
     "IT asset disposition Sydney",
   ],
-  openGraph: {
-    title: `${COMPANY_NAME} - ${COMPANY_SLOGAN}`,
-    description: "Free, eco-friendly e-waste recycling and secure data destruction services across Australia.",
-    url: process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000",
-    siteName: COMPANY_NAME,
-    // images will be automatically picked up from opengraph-image.tsx / twitter-image.tsx
-    locale: "en_AU", // Changed to Australian locale
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: `${COMPANY_NAME} - ${COMPANY_SLOGAN}`,
-    description: "Free, eco-friendly e-waste recycling and secure data destruction services across Sydney.",
-    // images will be automatically picked up
-    // site: '@YourTwitterHandle', // Add your Twitter handle
-    // creator: '@YourTwitterHandle',
-  },
+    openGraph: {
+      title: `${COMPANY_NAME} - ${COMPANY_SLOGAN}`,
+      description: "Free, eco-friendly e-waste recycling and secure data destruction services across Australia.",
+      url: process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000",
+      siteName: COMPANY_NAME,
+      images: [
+        {
+          url: "/images/banner-img-1.png",
+          width: 1200,
+          height: 630,
+          alt: "Adikaz E-Waste Recycling Preview",
+        },
+      ],
+      locale: "en_AU",
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${COMPANY_NAME} - ${COMPANY_SLOGAN}`,
+      description: "Free, eco-friendly e-waste recycling and secure data destruction services across Sydney.",
+      images: [
+        {
+          url: "/images/banner-img-1.png",
+          width: 1200,
+          height: 630,
+          alt: "Adikaz E-Waste Recycling Preview",
+        },
+      ],
+      // site: '@YourTwitterHandle',
+      // creator: '@YourTwitterHandle',
+    },
   robots: {
     index: true,
     follow: true,
