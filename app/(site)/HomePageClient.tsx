@@ -242,13 +242,13 @@ export default function HomePageClient() {
             {/* Animated Recycling Symbol with Particles */}
             <div className="absolute top-0 right-20 -mt-4 -mr-4 w-20 h-20 md:w-24 md:h-24 z-10">
               <div className="relative w-full h-full">
-                <Image
+                {/* <Image
                   src="/images/recycling-symbol-animated.png"
                   alt="Rotating recycling symbol"
                   layout="fill"
                   objectFit="contain"
                   className="animate-spin-slow"
-                />
+                /> */}
                 <div className="particle-container">
                   {Array.from({ length: 10 }).map((_, i) => (
                     <div key={i} className={`particle particle-${i + 1}`} />

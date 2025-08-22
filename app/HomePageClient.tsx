@@ -240,7 +240,7 @@ export default function HomePageClient() {
               className="rounded-lg shadow-xl object-contain mx-auto"
             />
             {/* Animated Recycling Symbol with Particles */}
-            <div className="absolute top-0 right-20 -mt-4 -mr-4 w-20 h-20 md:w-24 md:h-24 z-10">
+            <div className="absolute top-0 -right-16 md:left-40 -mt-4 md:-mr-4 w-20 h-20 md:w-24 md:h-24 z-10">
               <div className="relative w-full h-full">
                 <Image
                   src="/images/recycling-symbol-animated.png"
