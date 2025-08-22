@@ -1,0 +1,4 @@
+.adminLayout :global(nav:first-of-type:not(.bg-gray-800)),
+.adminLayout :global(footer) {
+  display: none !important;
+}

@@ -1,4 +1,4 @@
-export const COMPANY_NAME = "Adikaz Recycling"
+export const COMPANY_NAME = "Adikaz Company"
 export const COMPANY_EMAIL = "adikazrecyclingcompany@gmail.com "
 export const COMPANY_PHONE = "+04 70 2083 65 "
 export const COMPANY_ADDRESS = "565 Woodville road Guilford 2161 Sydney "
