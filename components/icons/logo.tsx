@@ -4,7 +4,7 @@ export function Logo({ className, size = 32 }: { className?: string; size?: numb
   return (
     <div className={`flex items-center gap-2 ${className}`}>
       <Recycle className="text-teal-600" size={size} strokeWidth={2.5} />
-      <span className="text-xl font-semibold text-slate-800 tracking-tight">Adikaz Recycling</span>
+      <span className="text-xl font-semibold text-slate-800 tracking-tight">Adikaz Company</span>
     </div>
   )
 }

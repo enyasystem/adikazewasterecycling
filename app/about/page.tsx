@@ -49,7 +49,7 @@ export default function AboutPage() {
   return (
     <>
       <PageHeader
-        title="About Adikaz Recycling"
+        title="About Adikaz Company"
         subtitle="Pioneering sustainable e-waste solutions with a commitment to Sydney excellence and environmental stewardship."
       />
 

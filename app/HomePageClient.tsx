@@ -23,20 +23,20 @@ import { motion } from "framer-motion"
 const heroSlides = [
   {
     title: `Free & Secure E-Waste Recycling in Sydney`,
-    description: `Adikaz Recycling offers free, eco-friendly solutions for your unwanted electronics. Enjoy free pick up and free disposal, ensuring your data is secure and the environment is protected.`,
-    image: "/images/banner-img-1.png",
+    description: `Adikaz Company offers free, eco-friendly solutions for your unwanted electronics. Enjoy free pick up and free disposal, ensuring your data is secure and the environment is protected.`,
+    image: "/images/banner3.png",
     alt: "People recycling electronics into a large green bin",
   },
   {
     title: `Convenient Free Pick Up & Disposal`,
     description: `Say goodbye to old electronics effortlessly. We provide free pick up services for businesses and individuals across Sydney, making responsible disposal simple and accessible.`,
-    image: "/images/banner-img-2-carousel.png",
+    image: "/images/banner2.png",
     alt: "Woman disposing of e-waste into a bin",
   },
   {
     title: `Committed to a Greener Sydney`,
     description: `Join us in building a sustainable future. Our certified processes ensure maximum material recovery and secure data destruction, all at no cost to you.`,
-    image: "/images/chooseus-1-carousel.png",
+    image: "/images/banner1.png",
     alt: "Woman holding recycling bins with plastic and cans",
   },
 ]
@@ -181,7 +181,7 @@ export default function HomePageClient() {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-800 mb-4">Our Core Services</h2>
           <p className="text-lg text-slate-600 max-w-3xl mx-auto">
-            Adikaz Recycling provides comprehensive, free, and secure solutions for your electronic waste.
+            Adikaz Company provides comprehensive, free, and secure solutions for your electronic waste.
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-8">
@@ -210,7 +210,7 @@ export default function HomePageClient() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-slate-800 mb-6">
-              Why Choose Adikaz Recycling?
+              Why Choose Adikaz Company?
             </h2>
             <p className="text-lg text-slate-600 mb-8">
               We are Sydney's trusted partner for responsible and free e-waste management, committed to security,
@@ -233,7 +233,7 @@ export default function HomePageClient() {
           </div>
           <div className="relative flex justify-center items-center">
             <Image
-              src="/images/why-choose-us-recycling.png"
+              src="/images/banner1.png"
               alt="Woman holding recycling bins"
               width={500}
               height={500}

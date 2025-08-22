@@ -4,7 +4,7 @@ import { COMPANY_NAME } from "@/lib/constants"
 export default function manifest(): MetadataRoute.Manifest {
   return {
     name: COMPANY_NAME,
-    short_name: "Adikaz Recycling",
+    short_name: "Adikaz Company",
     description:
       "Professional e-waste recycling services in Sydney. Free collection, secure data destruction, and environmentally responsible disposal.",
     start_url: "/",
