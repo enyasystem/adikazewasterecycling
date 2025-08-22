@@ -90,11 +90,9 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body className={`${inter.className} bg-slate-50 text-slate-800 antialiased`}>
-        <Navbar />
-        <main className="min-h-screen">{children}</main>
-        <Footer />
+        {children}
         <Toaster richColors />
-        <ScrollToTopButton /> {/* Add the scroll-to-top button here */}
+        <ScrollToTopButton />
       </body>
     </html>
   )
