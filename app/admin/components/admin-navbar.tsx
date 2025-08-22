@@ -25,21 +25,21 @@ export default function AdminNavbar() {
               >
                 Dashboard
               </Link>
-              <Link
+              {/* <Link
                 href="/admin/submissions"
                 className={`${isActive("/admin/submissions")} rounded-md px-3 py-2 text-sm font-medium`}
               >
                 Submissions
-              </Link>
+              </Link> */}
             </div>
           </div>
           <div>
-            <form action="/api/admin/logout" method="POST">
+            <form action="/">
               <button
                 type="submit"
                 className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
               >
-                Logout
+                Back Home
               </button>
             </form>
           </div>
