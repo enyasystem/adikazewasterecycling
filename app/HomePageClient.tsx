@@ -151,7 +151,7 @@ export default function HomePageClient() {
                         variant="outline"
                         className="border-teal-600 text-teal-600 hover:bg-teal-50 bg-white"
                       >
-                        <Link href="/contact#quote">Get a Free Quote</Link>
+                        <Link href="/contact#quote">Book a Collection</Link>
                       </Button>
                     </div>
                   </div>
