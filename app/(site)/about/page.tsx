@@ -75,7 +75,7 @@ export default function AboutPage() {
           </div>
           <div>
             <Image
-              src="/placeholder.svg?width=500&height=400&text=Our+Dedicated+Team"
+              src="/images/mission.png"
               alt="Adikaz Recycling team working"
               width={500}
               height={400}
@@ -110,7 +110,7 @@ export default function AboutPage() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <Image
-              src="/placeholder.svg?width=500&height=400&text=Green+Technology"
+              src="/images/Our-Eco-Initiatives.png"
               alt="Illustration of green technology and recycling symbols"
               width={500}
               height={400}

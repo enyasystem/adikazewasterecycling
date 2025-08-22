@@ -176,7 +176,7 @@ export default function ServicesPage() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <Image
-              src="/placeholder.svg?width=500&height=450&text=Secure+Data+Shredding"
+            src="/images/Secure_Data_Destruction.png"
               alt="Secure data destruction process"
               width={500}
               height={450}
